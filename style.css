@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+ font-size: 18px;
+ font-family: 'Bellefair',
+ serif;
+}
+
+/* home section  navbar*/
+
+header{
+  padding-top: 20px;
+}
+
+hr{
+  width: 2px;
+}
+
+.bg{
+  background: url(./assets/home/background-home-desktop.jpg), linear-gradient(to bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
+  height: 100vh;
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.nav-container .blur-effect {
+     height: 60px;
+    background: linear-gradient(to right, #979797, #979797);
+    /* opacity: .5; */
+    margin-right: 100px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    /* z-index: -2; */
+}
+
+.nav-container ul{
+  height: 60px;
+  z-index: 1000;
+
+  /* background-blend-mode: hue; */
+}
+
+.nav-container li{
+  display: inline;
+  padding: 0 50px;
+  color: #fff;
+  list-style-type: none;
+  z-index: 1000;
+}
+
+.nav-container li a{
+  color: #fff;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+
+}
+
+/* body text  */
+
+.body-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.hero-text{
+  color: #fff;
+  width: 600px;
+}
+
+.hero-text h3{
+  text-transform: uppercase;
+}
+
+.hero-text h1{
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.hero-text p{
+  line-height: 25px;
+}
+
+
+.explore{
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* destination page */
+
+.destination-bg{
+  background: url(./assets/destination/background-destination-desktop.jpg);
+  height: 100vh;
+}
+
+.destination-container{
+  margin: 80px 150px 0 150px;
+  color: #fff;
+}
+
+.destination-container h3{
+  text-transform: uppercase;
+}
+
+
+.moon-image-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.moon-image img{
+  width: 300px;
+  height: 300px;
+}
+
+.moon-text{
+  margin-left: 180px; 
+}
+
+
+.inner-nav ul li{
+  display: inline;
+  padding-right: 30px;
+  list-style-type: none;
+}
+
+.inner-nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.moon-small-text{
+  color: #fff;
+}
+
+.moon-small-text h1{
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.h-rule{
+  height: 2px;
+  width: 100%;
+  background: grey;
+  margin-top: 40px;
+
+}
+
+.moon-distance{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between
+}
